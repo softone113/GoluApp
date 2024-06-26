@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:goluu_app/screens/dashboard/consult/consult.dart';
-import 'package:goluu_app/screens/dashboard/rediscover/rediscover.dart';
-import 'package:goluu_app/screens/dashboard/transform/transform.dart';
+import 'package:goluu_app/presentations/dashboard/rediscover/rediscover.dart';
+import 'package:goluu_app/presentations/dashboard/transform/transform.dart';
 import 'package:goluu_app/utils/color.dart';
+
+import 'consult/consult.dart';
 
 class Dashboard extends StatefulWidget {
   @override

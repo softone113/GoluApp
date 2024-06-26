@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:goluu_app/route/route_name.dart';
-import 'package:goluu_app/screens/auth/signup/signup_screen.dart';
-import 'package:goluu_app/screens/chat_screen/chat_screen.dart';
-import 'package:goluu_app/screens/dashboard/consult/consult.dart';
-import 'package:goluu_app/screens/dashboard/dashboard.dart';
-import 'package:goluu_app/screens/dashboard/rediscover/rediscover.dart';
-import 'package:goluu_app/screens/forget/forget.dart';
-import '../screens/auth/signin/login_screen.dart';
-import '../screens/dashboard/transform/transform.dart';
-import '../screens/landing_screen/introduction_screen.dart';
-import '../screens/splash_screen/splash_screen.dart';
+import '../presentations/auth/signin/login_screen.dart';
+import '../presentations/auth/signup/signup_screen.dart';
+import '../presentations/chat_screen/chat_screen.dart';
+import '../presentations/dashboard/consult/consult.dart';
+import '../presentations/dashboard/dashboard.dart';
+import '../presentations/dashboard/rediscover/rediscover.dart';
+import '../presentations/dashboard/transform/transform.dart';
+import '../presentations/forget/forget.dart';
+import '../presentations/landing_screen/introduction_screen.dart';
+import '../presentations/splash_screen/splash_screen.dart';
 
 class AppRoutes {
   static Route<dynamic> generateRoute(RouteSettings settings) {

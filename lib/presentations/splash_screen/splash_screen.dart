@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:goluu_app/route/route_name.dart';
-import 'package:goluu_app/screens/landing_screen/introduction_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
